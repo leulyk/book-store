@@ -47,6 +47,7 @@ a:hover {
     display: flex;
     justify-content: center;
     gap: 50px;
+    margin-bottom: 70px;
 }
 
 .main-text {
@@ -85,4 +86,36 @@ a:hover {
 
 .main-text button:hover {
     opacity: 0.8;
+}
+
+.display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.popular {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
+    margin-top: 30px;
+}
+
+.popular .item img {    
+    flex-shrink: 0;
+    height: 200px;
+    border: 5px solid #DDCCCC;
+    border-radius: 50%;
+}
+
+.popular .title {
+    font-size: 36px;
+    width: 100px;
+    font-weight: 800;
+}
+
+.description {
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 14px;
+    text-align: center;
 }
