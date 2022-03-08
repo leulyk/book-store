@@ -92,7 +92,9 @@ a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 40px 0px;
 }
+
 .popular {
     display: flex;
     justify-content: space-around;
@@ -103,7 +105,8 @@ a:hover {
 
 .popular .item img {    
     flex-shrink: 0;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border: 5px solid #DDCCCC;
     border-radius: 50%;
 }
@@ -114,8 +117,24 @@ a:hover {
     font-weight: 800;
 }
 
-.description {
+.quotes {
+    background: #E5E7EB;
+    padding: 60px;
+    text-align: center;
+}
+
+.description, .reference {
     font-family: 'Sansita Swashed', cursive;
     font-size: 14px;
+}
+
+.statement {
+    font-size: 24px;
     text-align: center;
+    margin: 40px 0px;
+}
+
+.reference {
+    text-align: right;
+    font-weight: bold;
 }
