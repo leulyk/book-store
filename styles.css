@@ -73,7 +73,7 @@ a:hover {
     font-size: 18px;
 }
 
-.main-text button {
+button {
     width: 100px;
     padding: 10px 0px;
     font-size: 15px;
@@ -84,7 +84,7 @@ a:hover {
     border-radius: 15%;
 }
 
-.main-text button:hover {
+button:hover {
     opacity: 0.8;
 }
 
@@ -141,4 +141,35 @@ a:hover {
 .reference {
     text-align: right;
     font-weight: bold;
+}
+
+.signup {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+    margin: 40px;
+    gap: 50px;
+    width: 1000px;
+    background: hsl(220, 100%, 50%);
+    border-radius: 0%;
+    color: #FFFFFF;
+}
+
+.signup button {
+    border: 2px solid white; 
+    width: 100px;
+    height: 40px;
+    align: right;
+}
+
+.message h2 {
+    font-weight: 800;
+    font-size: 38px;
+    margin-bottom: 0;
+}
+
+.message p {
+    font-size: 18px;
+    margin-top: 0;
 }
