@@ -1,15 +1,19 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
+
 body {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     margin: 0;
-    font-family: serif; 
+    font-family: Hubballi; 
 }
 
 header {
     display: flex;
     flex-direction: column;
-    align-items: space-around;
+    align-items: space-evenly;
     gap: 40px;
     background: #1F2937;
     padding: 20px;
@@ -37,6 +41,7 @@ a {
 .intro {
     display: flex;
     justify-content: center;
+    align-items: flex-start;
     gap: 50px;
     margin-bottom: 50px;
 }
