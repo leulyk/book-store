@@ -6,9 +6,12 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
     margin: 0;
     font-family: Hubballi, serif;
+}
+
+header, footer {
+    background: #1F2937;
 }
 
 header {
@@ -16,7 +19,6 @@ header {
     flex-direction: column;
     justify-content: space-between;
     gap: 40px;
-    background: #1F2937;
     padding: 20px;
 }
 
@@ -146,6 +148,7 @@ button:hover {
 .signup {
     display: flex;
     justify-content: space-around;
+    align-self: center;
     align-items: center;
     padding: 40px;
     margin: 40px;
@@ -160,7 +163,6 @@ button:hover {
     border: 2px solid white; 
     width: 100px;
     height: 40px;
-    align: right;
 }
 
 .message h2 {
@@ -172,4 +174,12 @@ button:hover {
 .message p {
     font-size: 18px;
     margin-top: 0;
+}
+
+footer {
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 24px;
 }
