@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap');
 
 body {
     display: flex;
@@ -7,13 +8,13 @@ body {
     justify-content: space-between;
     align-items: center;
     margin: 0;
-    font-family: Hubballi; 
+    font-family: Hubballi, serif;
 }
 
 header {
     display: flex;
     flex-direction: column;
-    align-items: space-evenly;
+    justify-content: space-between;
     gap: 40px;
     background: #1F2937;
     padding: 20px;
@@ -41,13 +42,12 @@ a {
 .intro {
     display: flex;
     justify-content: center;
-    align-items: flex-start;
     gap: 50px;
-    margin-bottom: 50px;
 }
 
-.intro .main-text {
+.main-text {
     width: 400px;
+    margin-top: 25px;
 }
 
 .intro img {
@@ -57,12 +57,13 @@ a {
     border-radius: 50%;
 }
 
-.intro h1 {
+.main-text h1 {
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: 800;
     color: #F9FAF8;
 }
 
-.intro p {
+.main-text p {
     color: #E5E7EB;
+    font-size: 18px;
 }
