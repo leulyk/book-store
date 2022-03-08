@@ -34,6 +34,10 @@ a {
     margin-right: 30px;
 }
 
+a:hover {
+    opacity: 0.8;
+}
+
 .top img {
     width: 100px;
     height: 100px;
@@ -76,4 +80,9 @@ a {
     color: rgb(255, 255, 255);
     font-weight: bold;
     border: none;
+    border-radius: 15%;
+}
+
+.main-text button:hover {
+    opacity: 0.8;
 }
