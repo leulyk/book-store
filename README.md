@@ -1,4 +1,6 @@
-# [Landing page for an e-book store](https://github.com/leulyk/book-store/blob/main/README.md)
+# [Landing page](https://github.com/leulyk/book-store/blob/main/README.md)
+
+<img src="images/preview.png" />
 
 > This is a landing page for an e-book and podcast hosting web site. I used HTML and CSS only for development.
 
