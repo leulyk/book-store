@@ -4,7 +4,7 @@
 
 > This is a landing page for an e-book and podcast hosting web site. I used HTML and CSS only for development.
 
-> ### [See the live preview here.](https://leulyk.github.io/ebook-store-landing-page/)
+> ### [See the live preview here.](https://ebook-store-landing-page.vercel.app/)
 
 ### Resources used from the internet
 
