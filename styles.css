@@ -5,13 +5,20 @@
 body {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     margin: 0;
     font-family: Hubballi, serif;
 }
 
-header, footer {
-    background: #1F2937;
+a {
+    text-decoration: none;
+    font-size: 28px;
+    margin-right: 30px;
+    color: #F5F7FB;
+}
+
+a:hover {
+    opacity: 0.8;
 }
 
 header {
@@ -28,23 +35,12 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0px 25px;;
-}
-
-a {
-    text-decoration: none;
-    font-size: 28px;
-    margin-right: 30px;
-    color: #F5F7FB;
-}
-
-a:hover {
-    opacity: 0.8;
+    margin: 0 25px;;
 }
 
 .top img {
-    width: 100px;
-    height: 100px;
+    width: 60px;
+    height: 60px;
 }
 
 .head {
@@ -53,7 +49,15 @@ a:hover {
 }
 
 .head a {
-    font-size: 24px;;
+    font-size: 24px;
+}
+
+.links a {
+    font-weight: bold;
+}
+
+.links a:hover {
+    text-decoration: underline;
 }
 
 .intro {
@@ -72,16 +76,16 @@ a:hover {
 
 .main-text h2 {
     font-size: 48px;
-    font-weight: 800;
+    font-weight: bolder;
     margin-bottom: 0;
     margin-top: 50px;
-    color: hsl(30, 100%, 80%);
+    color: hsl(120, 100%, 90%);
 }
 
 .main-text p {
     color: rgb(10, 10, 10);
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 800;
 }
 
 button {
@@ -115,7 +119,6 @@ button:hover {
 }
 
 .popular .item img {    
-    flex-shrink: 0;
     width: 150px;
     height: 150px;
     border: 2px solid hsl(200, 100%, 80%);
@@ -126,6 +129,11 @@ button:hover {
     font-size: 36px;
     width: 100px;
     font-weight: 800;
+}
+
+.item .description {
+    width: 150px;
+    text-align: center;
 }
 
 .quotes {
@@ -180,6 +188,7 @@ button:hover {
 }
 
 footer {
+    background: #1F2937;
     height: 80px;
     line-height: 80px;
     text-align: center;
